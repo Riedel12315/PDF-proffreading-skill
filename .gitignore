@@ -1,0 +1,177 @@
+# 依赖目录
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+pip-wheel-metadata/
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# 翻译
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+.sage/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# 项目特定
+output/
+logs/
+temp/
+.pdf_cache/
+*.annotated.pdf
+*_report.md
+*_report.html
+batch_output/
+examples/sample_*.pdf
+examples/*_report.md
+
+# 配置文件（可以提交示例配置）
+config.yaml
+!config.example.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+
+# 备份文件
+*.bak
+*.backup
+
+# 大型文件
+*.large.pdf
+
+# 测试文件
+test_*.pdf
+test_*.md
